@@ -56,6 +56,18 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.btn {
+  padding: 15px 31px;
+  background-color: var(--dark-cyan);
+  border-radius: 6px;
+  color: var(--light-cream);
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+}
+.btn:hover {
+  background-color: var(--button-hover);
+}
 .main {
   flex-grow: 1;
 }
