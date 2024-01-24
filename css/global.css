@@ -130,7 +130,7 @@ h4 {
   opacity: 0.6;
 }
 .footer {
-  margin-bottom: 88px;
+  padding-bottom: 88px;
 }
 .footer__container {
   background-color: var(--footer-bg);
