@@ -1,0 +1,119 @@
+.hero {
+  margin-bottom: 168px;
+}
+.hero__container {
+  padding: 117px 85px;
+  background-image: url("../images/about/desktop/image-hero-whitecup.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.hero__content {
+  color: var(--light-cream);
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.hero__title {
+  font-family: var(--heading-font-family);
+}
+.hero__description {
+  opacity: 0.8;
+}
+.commitment__container {
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 256px;
+}
+.commitment__img {
+  border-radius: 8px;
+}
+.commitment__content {
+  display: flex;
+  width: 539px;
+  height: 340px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.commintment__description {
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+.quality__container {
+  width: 100%;
+  max-width: 1280px;
+  height: 474px;
+  background-color: var(--dark-grey-blue);
+  border-radius: 10px;
+  margin-bottom: 168px;
+}
+.quality__content {
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quality__content-left {
+  display: flex;
+  width: 540px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 88px;
+}
+.quality__title {
+  color: var(--light-cream);
+}
+.quality__description {
+  color: var(--light-cream);
+  opacity: 0.6;
+}
+.quality__img {
+  border-radius: 6px;
+  margin-top: -88px;
+}
+.headquarter {
+}
+.headquarter__container {
+  padding: 0%;
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-bottom: 168px;
+}
+.headquarter__title {
+  color: var(--grey);
+}
+.cards__wrapper {
+  display: flex;
+  gap: 95px;
+}
+.headquarter__card {
+  width: 285px;
+}
+.card__icon {
+  margin-bottom: 48px;
+}
+.card__title {
+  margin-bottom: 24px;
+}
+.card__discription {
+}

@@ -8,8 +8,6 @@
   border-radius: 10px;
   background-repeat: no-repeat;
 }
-.container {
-}
 .hero__content {
   color: var(--light-cream);
   width: 493px;
@@ -21,9 +19,4 @@
   width: 444px;
   opacity: 0.8;
   margin-bottom: 56px;
-}
-.hero__btn {
-  
-}
-.btn {
 }

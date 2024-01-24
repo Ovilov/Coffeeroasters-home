@@ -56,6 +56,12 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.main__container {
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .btn {
   padding: 15px 31px;
   background-color: var(--dark-cyan);
@@ -96,7 +102,7 @@ h4 {
 }
 
 .header {
-  padding: 43px 0;
+  padding: 43px 0px 43px 0px;
 }
 .header__container {
   display: flex;
@@ -145,10 +151,12 @@ h4 {
   padding-bottom: 88px;
 }
 .footer__container {
+  width: 100%;
+  max-width: 1280px;
   background-color: var(--footer-bg);
   display: flex;
   align-items: center;
-  padding: 47px 50px;
+  padding: 47px 100px;
 }
 .container {
 }
