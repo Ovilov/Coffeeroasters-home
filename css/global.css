@@ -56,13 +56,8 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.main__container {
-  width: 100%;
-  max-width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .btn {
+  font-family: var(--heading-font-family);
   padding: 15px 31px;
   background-color: var(--dark-cyan);
   border-radius: 6px;
@@ -76,6 +71,7 @@ body {
 }
 .main {
   flex-grow: 1;
+  padding: 0%;
 }
 h1,
 h2,
@@ -156,7 +152,7 @@ h4 {
   background-color: var(--footer-bg);
   display: flex;
   align-items: center;
-  padding: 47px 100px;
+  padding: 47px 85px;
 }
 .container {
 }
